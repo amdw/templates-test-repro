@@ -1,6 +1,6 @@
 # Testrepro
 
-This is a trivial Angular project intended to reproduce the unexpected success of `ng test` when a component cannot be compiled with `strictTemplates = true`.
+This is a trivial Angular project intended to reproduce the unexpected success of `ng test` when a component cannot be compiled.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
