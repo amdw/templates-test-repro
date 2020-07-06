@@ -2,6 +2,8 @@
 
 This is a trivial Angular project intended to reproduce the unexpected success of `ng test` when a component cannot be compiled.
 
+The issue has been filed in the Angular repo at https://github.com/angular/angular/issues/37945.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
 ## Development server
