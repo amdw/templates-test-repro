@@ -1,7 +1,6 @@
 <!--
-    myinput can be null, so this does not compile with strictTemplates.
-    Hence, ng serve gives an error.
-    Adding a '?' (myinput?.myfield) makes it compile.
+    nonexistent doesn't exist, so this does not compile even without strictTemplates.
+    Again, ng serve gives an error.
     However ng test seems to pass fine in either case.
 -->
 <p>mycomponent: {{myinput.myfield}} {{nonexistent}}</p>
