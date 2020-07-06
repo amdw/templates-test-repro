@@ -1,0 +1,7 @@
+<!--
+    myinput can be null, so this does not compile with strictTemplates.
+    Hence, ng serve gives an error.
+    Adding a '?' (myinput?.myfield) makes it compile.
+    However ng test seems to pass fine in either case.
+-->
+<p>mycomponent: {{myinput.myfield}}</p>

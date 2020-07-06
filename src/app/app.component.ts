@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MyInterface } from './mycomponent/mycomponent.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'testrepro';
+  iface: MyInterface = {
+    myfield: 'myvalue1',
+  };
 }

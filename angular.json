@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "testrepro"
+    }
+  },
+  "defaultProject": "testrepro",
+  "cli": {
+    "analytics": "f5232d90-37e7-4704-b28a-547a1bf4b057"
+  }
 }

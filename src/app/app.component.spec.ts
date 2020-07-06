@@ -1,11 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { MycomponentComponent } from './mycomponent/mycomponent.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        MycomponentComponent,
       ],
     }).compileComponents();
   }));
@@ -22,10 +24,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('testrepro');
   });
 
-  it('should render title', () => {
+  it('should render input', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('testrepro app is running!');
+    expect(compiled.querySelector('p').textContent).toContain('myvalue1');
   });
 });
